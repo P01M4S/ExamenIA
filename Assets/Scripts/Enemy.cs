@@ -94,7 +94,7 @@ public class Enemy : MonoBehaviour
         else
         {
             currentState = EnemyState.Patrolling;
-            _serchTime = 10;
+            _serchTime = 15;
         }
     }
     bool RandomSearchPoint(Vector3 center, float radius, out Vector3 point)
